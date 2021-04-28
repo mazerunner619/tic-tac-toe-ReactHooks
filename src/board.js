@@ -103,7 +103,7 @@ function Board(){
                     <input id ="A" className="entry-field" name ="playerA" type = "text" placeholder = "Player 1" required value = {nameA} onChange = {getName}/>
                     <label className="entry-label" for="playerA">V / S </label>
                     <input id="B" className="entry-field" name = "playerB" type = "text" placeholder = "Player 2" required value = {nameB} onChange = {getName}/>
-                    <h1 className="startButton" onClick = { startGame}> Let's Tic Tac Toe</h1>
+                    <h1 className="startButton" onClick = { startGame}>Battle</h1>
          </form>
 
          <div class="heading">Tic  Tac Toe</div>
